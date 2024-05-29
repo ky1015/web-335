@@ -1,2 +1,5 @@
-# web-335
-Classwork for web-335 at Bellevue University
+# WEB 335 Introduction to NoSQL
+
+## Contributors
+- Kylie Struhs
+- Richard Krasso
