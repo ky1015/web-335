@@ -1,0 +1,12 @@
+
+{
+    "_id": "59",
+    "burger": {
+        "burgerName": "Junior McWhopper",
+        "price": "3.59"
+    }, 
+    "customer": {
+        "firstName": "Wendy",
+        "lastName": "King"
+    }
+}
