@@ -1,0 +1,58 @@
+
+{
+ "movies" : [
+    {
+        "_id" : "01",
+        "title" : "Avatar",
+        "genre" : "action",
+        "viewers" : [
+            {
+                "_id" : "01",
+                "ratings" : [
+                    {
+                        "_id" : "17",
+                        "rating" : "7.5"
+                    }
+                ]
+            }, 
+            {
+                "_id" : "44",
+                "ratings" : [
+                    {
+                        "_id" : "19",
+                        "rating": "8.5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id" : "02",
+        "title" : "Avengers: Endgame",
+        "genre" : "action",
+        "viewers" : [
+            {
+                "_id" : "01",
+                "ratings" : [
+                    {
+                        "_id" : "22",
+                        "rating" : "9.7"
+                    }
+                ]
+            }
+        ]
+    }
+ ],
+ "viewers" : [
+    {
+        "_id" : "01",
+        "firstName": "John",
+        "lastName": "Matthews"
+    },
+    {
+        "_id": "44",
+        "firstName": "Cassie",
+        "lastName": "Wayne"
+    }
+ ]
+}
