@@ -1,3 +1,4 @@
+// logging into the shell
 C:\Users\kylie\buwebdev\web-335\web-335-master\week_4> mongosh "mongodb+srv://bellevueuniversity.edz2jps.mongodb.net/" --apiVersion 1 --username web335_user
 Enter password: ******
 Current Mongosh Log ID: 6678d86d2f1685b605d736a8
@@ -8,8 +9,13 @@ mongosh 2.2.9 is available for download: https://www.mongodb.com/try/download/sh
 
 For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
+//loading the file
 Atlas atlas-kww38r-shard-0 [primary] test> load("users.js")
+
+// validation that we have loaded users.js
 true
+
+// query to display all users
 Atlas atlas-kww38r-shard-0 [primary] test> db.users.find();
 [
   {
@@ -61,6 +67,8 @@ Atlas atlas-kww38r-shard-0 [primary] test> db.users.find();
     dateCreated: ISODate("2024-06-24T02:22:42.580Z")
   }
 ]
+
+// query to find user with email of "jbach@me.com"
 Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({email:'jbach@me.com'});
 {
   _id: ObjectId("6678d8722f1685b605d736a9"),
@@ -70,6 +78,8 @@ Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({email:'jbach@me.com
   email: 'jbach@me.com',
   dateCreated: ISODate("2024-06-24T02:22:42.580Z")
 }
+
+// query to find user with lastName of "Mozart"
 Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({lastName:'Mozart'});
 {
   _id: ObjectId("6678d8722f1685b605d736ab"),
@@ -79,6 +89,8 @@ Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({lastName:'Mozart'})
   email: 'wmozart@me.com',
   dateCreated: ISODate("2024-06-24T02:22:42.580Z")
 }
+
+// query to find user with first name of Richard
 Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({firstName:'Richard'});
 {
   _id: ObjectId("6678d8722f1685b605d736ad"),
@@ -88,6 +100,8 @@ Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({firstName:'Richard'
   email: 'rwagner@me.com',
   dateCreated: ISODate("2024-06-24T02:22:42.580Z")
 }
+
+// query to find user with employeeId of "1010"
 Atlas atlas-kww38r-shard-0 [primary] test> db.users.findOne({employeeId:'1010'});
 {
   _id: ObjectId("6678d8722f1685b605d736ac"),
