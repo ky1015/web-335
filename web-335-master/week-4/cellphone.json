@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "_id": "u503",
+            "firstName": "Richard",
+            "lastName": "Grayson",
+            "devices": [
+                {
+                    "_id": "d01",
+                    "deviceName": "SamsungS20",
+                    "deviceType": "cellphone",
+                    "charger_id": "c1"
+                }
+            ],
+            "chargers": [
+                {
+                    "_id": "c1",
+                    "voltage": "15",
+                    "charger_type": "usb_c"
+                }
+            ]
+        },
+        {
+            "_id": "u784",
+            "firstName": "Jason",
+            "lastName": "Todd",
+            "devices": [
+                {
+                    "_id": "d02",
+                    "deviceName": "SamsungS22",
+                    "deviceType": "cellphone",
+                    "charger_id": "c2"
+                }
+            ],
+            "chargers": [
+                {
+                    "_id": "c2",
+                    "voltage": "10",
+                    "charger_type": "wireless"
+                }
+            ]
+        }
+    ]
+}
